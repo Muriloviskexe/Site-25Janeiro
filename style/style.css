@@ -24,11 +24,13 @@ header{
     border: 0px;
     margin: 0px;
 
+
 }
 
     
 
 header > h1{
+    display: block;
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.74);
     color: white;
@@ -36,15 +38,23 @@ header > h1{
 
 }
 
-header > nav{
 
+
+
+.navegacao{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 10px;
+    
+}
+.navegacao > a{
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
-
-}
-
-nav > a{
+    width: fit-content;
+    height: 30px;
+    
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.74);
     margin-right: 20px;
 
@@ -58,9 +68,9 @@ nav > a{
 
 }
 
-nav > a:hover{
+.navegacao > a:hover{
     box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.452);
-    color: #ff7f8c;
+    color: #ffffff;
     background-color: #641920;
     animation: 0.5s;
 }
