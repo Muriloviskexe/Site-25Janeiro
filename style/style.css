@@ -1,19 +1,13 @@
 @charset "UTF-8";
 
-/*
-Cores:
+:root{
 
-#EE3DFF
-#E637A4
-#FA3C4F
-#E3422B
-#FB6830
-
-*/
+}
 
 
 
 /* PAGINA PRINCIPAL */
+
 body{
     border: 0px;
     padding: 0px;
@@ -32,11 +26,13 @@ header{
 
 }
 
+    
+
 header > h1{
+    text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.74);
     color: white;
     font-size: 3em;
-    text-align: center;
 
 }
 
