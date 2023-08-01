@@ -16,8 +16,7 @@ body{
 
 
 header{ 
-    position: sticky;
-    top: 0px;
+    
     display: inline-block;
     
 
@@ -132,8 +131,16 @@ main{
     padding: 20px;
 }
 
+.h-fit > p{
+    margin: auto;
+    padding: 10px;
+
+}
+
 .h-fit{
     height: fit-content;
+
+
 }
 
 
@@ -185,6 +192,8 @@ blockquote{
 }
 
 .centro{
+
+    text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
